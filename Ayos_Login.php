@@ -27,9 +27,18 @@
 </head>
 <body>
 <div class="login">
-    <h2>Welcome To Ayos!</h2>
-    <form>
-      
+    <form action="login.php" method="post">
+      <h2>Login</h2>
+      <?php if(isset($_GET['error'])) { ?>
+        <p class="error"> <?php echo $_GET['error']; ?></p>
+      <?php } ?> 
+      <label> User Name </label>
+      <input type="text" name="userName" placeholder="User Name"><br>
+      <label>Password</label>
+      <input type="password" name="password" placeholder="Passoword"><br>
+
+      <button type="submit">Login</button>
+ 
     </form>
 </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
