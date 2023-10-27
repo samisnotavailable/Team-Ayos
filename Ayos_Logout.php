@@ -4,4 +4,4 @@ session_start();
 session_unset();
 session_destroy();
 
-header("Location: Ayos_Home.php");
+header("Location: Ayos_Index.php");

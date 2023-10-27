@@ -24,18 +24,18 @@ else if(empty($pass)) {
     exit;
 }
 
-$sql = "SELECT * FROM admins WHERE user_name='$uname' AND password='$password'";
+$sql = "SELECT * FROM admins WHERE userName='$uname' AND password='$password'";
 
 $result = mysqli_query($conn, $sql);
 
 if(mysqli_num_rows($result) === 1) {
     $row = mysqli_fetch_assoc($result);
-    if($row['user_name'] === $uname && $row['password'] === $pass) {
+    if($row['userName'] === $uname && $row['password'] === $pass) {
         echo "Logged In!";
-        $_SESSION['user_name'] = $row['user_name'];
+        $_SESSION['userName'] = $row['userName'];
         $_SESSION['name'] = $row['name'];
         $_SESSION['id'] = $row['id'];
-        header("Location: home.php");
+        header("Location: Ayos_Home.php");
         exit();
     }
     else{
