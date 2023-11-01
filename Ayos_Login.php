@@ -7,23 +7,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #0517b0;">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="Ayos_Home.php">Ayos!</a>
-          <div class="topnav-right" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0"> 
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="Ayos_About.php">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="Ayos_Service.php">Service</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="Ayos_Login.php">Login</a>
-              </li>
-          </div>
-        </div>
-      </nav>
 </head>
 <body>
 <div class="login">

@@ -19,7 +19,6 @@
           <li><a href="Ayos_About.php">About</a></li>
           <li><a href="Ayos_Service.php">Service</a></li>
           <li><a href="Ayos_Login.php">Login</a></li>
-
         </ul>
       </nav>
         <h1>This is index :D</h1>
